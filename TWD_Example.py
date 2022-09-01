@@ -1,7 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
+"""
+example stripped from TowardsDatascience article
 
+https://towardsdatascience.com/modelling-dynamic-systems-in-python-92c14d4b35d3
+
+by Andrew Joseph Davies
+"""
 
 # 1.2, 1.2, 0.9, 0.4, 0.8, 0.4
 def system_2_1(a, t, m1, m2, k1, k2, b1, b2):
