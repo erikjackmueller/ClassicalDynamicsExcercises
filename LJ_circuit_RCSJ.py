@@ -31,7 +31,7 @@ def sys(t, u):
 # p = np.array([L, Ic, C, R, Phi_0])
 u0 = np.zeros(3)
 # t = np.linspace(0, 1e-8, 100) not working with actual values... None type for sol.sol object from ivp
-t = np.linspace(0, 1, 100)
+t = np.linspace(0, 1, 20)
 sol = solve_ivp(sys, [0, 1], u0)
 y = sol.sol(t)
 
